@@ -1,11 +1,14 @@
-# kls-monitoring
+#### KLS-monitoring ( Kafka, Logstash and Splunk).
 
-## Adding monitoring stack for Kafka, Logstash and Splunk
+###### Adding monitoring stack for Kafka, Logstash and Splunk.
 
-## A python script (kafka_conn.py) which produces json messages, I am capturing them over kafka consumer.
+###### Using logstash, collecting messages from kafka and sending them over to splunk.
 
-## Using logstash, collecting these messages from kafka and sending them over to splunk.
+###### This is just a sample project for self-learning.
 
-## Here they can be captured and monitored.
+##### Steps to run this service -
 
-## This is just a sample project for self-learning.
+###### 1. Clone this repository - 
+###### 2. Build images for respective services using docker-compose.yml file. (Zookeeper, Kafka, Logstash and Splunk)
+###### Note- If any docker container, like Kafka, goes does at this step, please start / restart it.
+###### 3. If using VSCode + Docker plugin, please check all docker containers.
